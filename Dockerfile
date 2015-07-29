@@ -12,7 +12,7 @@ RUN unzip serf.zip \
 && mv serf /usr/bin/
 
 # Adding supervisord.conf
-COPY supervisord-serf.conf /etc/supervisor/conf.d/supervisord-serf.conf
+COPY supervisord-serf.conf /etc/supervisor/conf.d/00-serf.conf
 
 # Adding scripts
 COPY start-serf.sh /start-serf.sh
