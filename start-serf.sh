@@ -1,5 +1,11 @@
 #!/bin/bash
 
+
+if [ "x${SERF_ROLE}" == "x" ]; then
+    echo "No serf role specified... Serf disabled!!!"
+    exit 0
+fi
+
 SNAPSHOT_DIR="/opt/serf"
 
 mkdir -p ${SNAPSHOT_DIR}
