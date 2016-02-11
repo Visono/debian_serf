@@ -1,5 +1,5 @@
 # debian_serf
-## Docker base image of debian 7 with Serf 0.6.4 installed.
+## Docker base image of debian 7 with Serf 0.7.0 installed.
 
 Base image: [visono/debian][1]:latest
 
@@ -7,7 +7,7 @@ Base image: [visono/debian][1]:latest
 
 Additionally installed software:
 
-- Serf 0.6.4
+- Serf 0.7.0
 
 
   [1]: https://registry.hub.docker.com/u/visono/debian/
